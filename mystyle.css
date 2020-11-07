@@ -1,0 +1,80 @@
+/* FONTS *********/
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/Monoton/Monoton-Regular.ttf);
+}
+h1 {
+  font-family: myFirstFont;
+}
+a{
+  font-family: myFirstFont
+}
+/********************/
+
+body{
+    display: flex;
+     justify-content: center;
+     background: repeating-linear-gradient(
+
+45deg,
+#aeceff,
+#aeceff 10px,
+#0000 10px,
+#ccc 20px
+);
+
+}
+
+#container{
+ position: relative;
+ top: 150px;
+
+ width: 500px
+}
+
+#hero-image{
+  display: flex;
+   justify-content: center;
+}
+
+#hero-image img {
+  width: 250px;
+  height: 250px;
+}
+
+#content-box{
+  background: #FFF;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.5);
+}
+
+ul{
+  position: relative;
+  margin: 40px;
+  margin-bottom: 13px;
+  list-style-type: none;
+  padding: 0px;
+  display:flex;
+  justify-content: left;
+  justify-content:center;
+}
+
+li {
+  margin: 10px;
+}
+
+a{
+  font-family: myFirstFont;
+  text-decoration:none;
+  padding 5px;
+  color: #FFF;
+}
+
+a:hover{
+
+   color: #000;
+ }
+</body>
+</html>
